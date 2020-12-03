@@ -12,7 +12,7 @@ func main() {
 		c.JSON(200, gin.H{
 			"owner":      "Pablo Lovera",
 			"greeting":   "Hola, trabajo como Software Development SSr en el equipo de COW Paraná",
-			"repository": "sin repo",
+			"repository": "https://github.com/plovera/greeting-api",
 		})
 	})
 	r.Run(port()) // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
